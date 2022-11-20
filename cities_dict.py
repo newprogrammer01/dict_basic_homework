@@ -7,8 +7,9 @@ def cities_dict(cities:list):
         dict: dictionary with keys ordered by city name
     """
     
-     
-    return cities.pop('a')
-print(cities_dict({'a':'salom','b':2}))
+    for i in cities.keys():
+     return cities[i]
+    
+print(cities_dict({1:'s','b':2}))
 
 
