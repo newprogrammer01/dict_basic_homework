@@ -8,7 +8,7 @@ def cities_dict(cities:list):
     """
     
      
-    return  cities
-print(cities_dict({'a':1,'b':2}))
+    return cities.pop('a')
+print(cities_dict({'a':'salom','b':2}))
 
 
